@@ -14,7 +14,7 @@ let sketch4 = (p) => {
   };
 
   p.draw = function () {
-    p.background(255);
+    p.clear(0);
 
     p.ambientLight(250);
     p.ambientMaterial(220, 99, 153);
@@ -23,7 +23,7 @@ let sketch4 = (p) => {
     p.push();
     p.rotateX(p.frameCount * 0.01);
     p.rotateY(p.frameCount * 0.02);
-    p.scale(8, 8, 8);
+    p.scale(10, 10, 10);
     p.model(octahedron);
     p.pop();
 
@@ -33,7 +33,7 @@ let sketch4 = (p) => {
     p.push();
     p.rotateX(p.frameCount * 0.01);
     p.rotateY(p.frameCount * 0.01);
-    p.scale(8, 8, 8);
+    p.scale(10, 10, 10);
     p.model(octahedron2);
     p.pop();
   };
