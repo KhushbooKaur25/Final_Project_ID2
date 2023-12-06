@@ -14,7 +14,7 @@ let sketch4 = (p) => {
   };
 
   p.draw = function () {
-    p.background(200);
+    p.background(255);
 
     p.ambientLight(250);
     p.ambientMaterial(220, 99, 153);
