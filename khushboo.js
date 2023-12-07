@@ -23,7 +23,7 @@ let sketch4 = (p) => {
     p.push();
     p.rotateX(p.frameCount * 0.01);
     p.rotateY(p.frameCount * 0.02);
-    p.scale(10, 10, 10);
+    p.scale(12, 12, 12);
     p.model(octahedron);
     p.pop();
 
@@ -33,7 +33,7 @@ let sketch4 = (p) => {
     p.push();
     p.rotateX(p.frameCount * 0.01);
     p.rotateY(p.frameCount * 0.01);
-    p.scale(10, 10, 10);
+    p.scale(12, 12, 12);
     p.model(octahedron2);
     p.pop();
   };
