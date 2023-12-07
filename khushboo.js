@@ -9,7 +9,7 @@ let sketch4 = (p) => {
   };
 
   p.setup = function () {
-    let canvas = p.createCanvas(544, 720, p.WEBGL);
+    let canvas = p.createCanvas(544, 544, p.WEBGL);
     canvas.parent("sketch4Container");
   };
 
